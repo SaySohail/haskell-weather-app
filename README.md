@@ -10,8 +10,6 @@
 </div>
 
 ---
-
-
 ## 🧐 About <a name = "about"></a>
 The goal of this project is to develop a stack-based Haskell application for harvesting information from the web and saving it in a database. The application allows users to choose a website containing data of interest, download the data, parse it, and store it in a SQLite database. Users can also query the data and generate a JSON representation of the data. The application utilizes stack for project management and dependencies.
 
