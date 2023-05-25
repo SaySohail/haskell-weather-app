@@ -13,7 +13,6 @@
 ## 🧐 About <a name = "about"></a>
 The goal of this project is to develop a stack-based Haskell application for harvesting information from the web and saving it in a database. The application allows users to choose a website containing data of interest, download the data, parse it, and store it in a SQLite database. Users can also query the data and generate a JSON representation of the data. The application utilizes stack for project management and dependencies.
 
-
 ## Application Overview
 The Haskell Web Data Harvesting App consists of several modules, each serving a specific purpose:
 
@@ -78,7 +77,6 @@ To generate the Haddock documentation, use the following command:
 stack build && cabal haddock --enable-documentation --open
 The generated Haddock documentation can be accessed through the file path: haskell-project/haskell-project/dist-newstyle/build/aarch64-osx/ghc-9.4.3/haskell-project-0.1.0.0/doc/html/haskell-project/index.html
 ```
-
 Upon running the application, the user is presented with a menu containing various options:
 
   * Download and Save Data: This option downloads the CSV file from the specified public URL, parses it using the Casava library, and inserts the data into the SQLite database. The data includes station details and weather details.
